@@ -1,0 +1,20 @@
+#Spring properties
+# Available profiles: jsp, twig (mutually exclusive)
+spring.profiles.active=jsp
+# To-do: Do we need this with current configurations?
+spring.main.allow-bean-definition-overriding=true
+# Additional debug information. Requests/responses.
+logging.level.web=ALL
+
+#DB Properties
+db.username = root
+db.password = vadim
+db.driver = org.sqlite.JDBC
+db.url = jdbc:sqlite:D:/sqlite/bot.db
+#Hibernate Configuration:
+hibernate.dialect=ru.kpfu.itis.springbots.config
+hibernate.ddl-auto=create
+hibernate.show_sql=true
+entitymanager.packages.to.scan = ru.kpfu.itis.springbots.models
+hibernate.enable_lazy_load_no_trans=true
+hibernate.id.new_generator_mappings=true

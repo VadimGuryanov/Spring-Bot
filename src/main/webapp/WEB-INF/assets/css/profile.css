@@ -1,0 +1,47 @@
+.info-profile li {
+    font-family: Arial, monospace;
+}
+
+.name {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-size: 1cm;
+    font-family: Arial, monospace;
+}
+
+.content {
+    font-size: 1.5em;
+    font-family: Arial, monospace;
+}
+
+.fir-info {
+    font-family: Arial, monospace;
+}
+
+.sec-info li{
+    color: #aaaaaa;
+    font-size: 1em;
+    font-family: Arial, monospace;
+}
+
+.summaries, .notification {
+    border: 2px solid #aaaaaa;
+    padding: 15px;
+    margin: 15px 0 0 15px;
+}
+
+.not-mess {
+    font-size: 0.5em;
+    font-family: Arial, monospace;
+}
+
+.not-link a{
+    margin-right: 5px;
+}
+
+.marging-footer {
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

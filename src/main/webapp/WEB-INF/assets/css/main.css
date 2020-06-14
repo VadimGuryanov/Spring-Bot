@@ -1,0 +1,179 @@
+.centered {
+    text-align: center;
+}
+
+.pddiv > div{
+    padding: 10px 30px;
+}
+
+.radioButton > div{
+    padding-left: 2px;
+}
+
+.radioButton .content{
+    padding-left: 30px;
+}
+
+.focus:focus {
+    border-bottom: 2px solid gray;
+}
+
+.nav-fl a:hover {
+    text-decoration: none;
+    background-color: #f0f0f0;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+a {
+    font-size: 1.1em;
+    color: gray;
+}
+
+.profile-you {
+    padding-right: 30px;
+}
+
+.nav-profile a:focus{
+    background-color: #FFFFFF;
+    border: 2px solid #c0c0c0;
+    border-radius: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ul-poet li {
+    list-style-type: circle;
+}
+
+.dropdown {
+    padding-right: 30px;
+}
+
+.fa-user {
+    padding-right: 5px;
+}
+
+.description {
+    /*padding: 30px;*/
+    width: 100%;
+}
+
+.des {
+    padding: 50px;
+    width: 50%;
+}
+
+.title-poem {
+    padding: 20px;
+}
+
+.sub {
+    width: 100%;
+    height: 120px;
+}
+
+.followers {
+    padding: 30px 50px;
+}
+
+.my-search {
+    padding-bottom: 50px;
+    padding-top: 30px;
+
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.search {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.search-line {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.srh_headers {
+    color: #000;
+    padding: 10px;
+}
+
+.srh_headers a {
+    text-decoration: none;
+}
+
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+}
+
+.icon_padding a{
+    padding-right: 10px;
+}
+
+.custom-select {
+    height: 35px;
+}
+
+.poem-pd {
+    padding-right: 5px;
+}
+
+.pading {
+    padding-top: 30px;
+}
+
+.prof {
+    padding: 15px;
+    border-right: 1px solid #eee;
+}
+
+.my-nav-style {
+    padding-left: 400px;
+}
+
+.mr-auto {
+    padding: 0;
+    margin: 0;
+}
+
+.reg div{
+    margin-bottom: 15px;
+    margin-top: 15px
+}
